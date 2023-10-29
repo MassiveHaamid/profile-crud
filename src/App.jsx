@@ -4,6 +4,7 @@ import UserList from './components/UserList';
 import UserDetails from './components/UserDetails';
 import UserForm from './components/UserForm';
 import './styles/App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   const [users, setUsers] = useState([]);
